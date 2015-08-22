@@ -32,7 +32,7 @@ midnight_in_paris = media.Movie("Midnight in Paris",
                      "Going back in time to meet authors",
                      "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
                      "https://www.youtube.com/watch?v=5nOF93SzX6s")
-                          
+
 hunger_games = media.Movie("Hunger Games",
                      "A really real reality show",
                      "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
@@ -66,5 +66,5 @@ white_men_cant_jump = media.Movie("White Men Can't Jump",
 
 
 movies = [white_men_cant_jump, the_big_easy, empire_strikes_back, butch_sundance, midnight_cowboy, buffalo_66]
-#fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.__module__)
+fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.__module__)
