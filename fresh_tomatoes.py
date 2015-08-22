@@ -20,6 +20,16 @@ main_page_head = '''
         body {
             padding-top: 80px;
         }
+        h2{
+            text-transform: uppercase;
+            font-size: 0.9em;
+            margin-bottom: 0px;
+        }
+        h3{
+            margin-top: 5px;
+            font-size: 0.85em;
+            color: #AAA;
+        }
         #trailer .modal-dialog {
             margin-top: 200px;
             width: 640px;
@@ -130,6 +140,7 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
+    <h3>{movie_storyline}</h3>
 </div>
 '''  # noqa
 
@@ -150,7 +161,8 @@ def create_movie_tiles_content(movies):
         content += movie_tile_content.format(
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
-            trailer_youtube_id=trailer_youtube_id
+            trailer_youtube_id=trailer_youtube_id,
+            movie_storyline=movie.storyline
         )
     return content
 

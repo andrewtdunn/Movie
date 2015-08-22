@@ -5,12 +5,12 @@ import media
 
 
 buffalo_66 = media.Movie(
-    "Buffalo 66", "Kidnapping and twisted revenge murders",
+    "Buffalo 66", "Kidnapping and twisted revenge murder plot",
     "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Buffalo_sixty_six_ver1.jpg/220px-Buffalo_sixty_six_ver1.jpg",  # noqa
     "https://www.youtube.com/watch?v=1duitd-N1Us")
 
 midnight_cowboy = media.Movie(
-    "Midnight Cowboy", "A hustling team in New York City",
+    "Midnight Cowboy", "N.Y.C. hustlers",
     "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Midnight_Cowboy.jpg/220px-Midnight_Cowboy.jpg",  # noqa
     "https://www.youtube.com/watch?v=a2yBydiEJrI")
 
@@ -20,7 +20,7 @@ butch_sundance = media.Movie(
     "https://www.youtube.com/watch?v=X41Ylp02NRs")
 
 the_big_easy = media.Movie(
-    "The Big Easy", "New Orleans crime thrillers",
+    "The Big Easy", "New Orleans sexy thriller",
     "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Bigeasyposter.jpg/220px-Bigeasyposter.jpg",  # noqa
     "https://www.youtube.com/watch?v=SzWwINeiZa4")
 
@@ -30,7 +30,7 @@ white_men_cant_jump = media.Movie(
     "https://www.youtube.com/watch?v=ebIGjo3Fzlc")
 
 dope = media.Movie(
-    "Dope", "Los Angeles crime-comedy thriller",
+    "Dope", "Los Angeles crime/comedy thriller",
     "https://upload.wikimedia.org/wikipedia/en/d/d2/DopeTeaserPoster.jpg",
     "https://www.youtube.com/watch?v=sNlSBM8jVOY")
 
