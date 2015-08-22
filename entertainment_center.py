@@ -1,70 +1,55 @@
 import fresh_tomatoes
 import media
 
-
-toy_story = media.Movie("Toy Story",
-                       "A story of a boy and his toys that come to life.",
-                       "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                       "https://www.youtube.com/watch?v=vwyZH85NQC4")
-
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+# instantiation of movie objects
 
 
-buffalo_66 = media.Movie("Buffalo 66",
-                     "Kidnapping and twisted revenge murder",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Buffalo_sixty_six_ver1.jpg/220px-Buffalo_sixty_six_ver1.jpg",
-                     "https://www.youtube.com/watch?v=1duitd-N1Us")
+buffalo_66 = media.Movie(
+    "Buffalo 66", "Kidnapping and twisted revenge murders",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Buffalo_sixty_six_ver1.jpg/220px-Buffalo_sixty_six_ver1.jpg",  # noqa
+    "https://www.youtube.com/watch?v=1duitd-N1Us")
 
-school_of_rock = media.Movie("School of Rock",
-                     "Using rock music to learn",
-                     "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                     "https://www.youtube.com/watch?v=3PsUJFEBC74")
+midnight_cowboy = media.Movie(
+    "Midnight Cowboy", "A hustling team in New York City",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Midnight_Cowboy.jpg/220px-Midnight_Cowboy.jpg",  # noqa
+    "https://www.youtube.com/watch?v=a2yBydiEJrI")
 
-ratatouille = media.Movie("Ratatouille",
-                     "A rat is a chef in Paris",
-                     "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                     "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+butch_sundance = media.Movie(
+    "Butch Cassidy and the Sundance Kid", "Western bank robbers",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Butch_sundance_poster.jpg/220px-Butch_sundance_poster.jpg",  # noqa
+    "https://www.youtube.com/watch?v=X41Ylp02NRs")
 
-midnight_in_paris = media.Movie("Midnight in Paris",
-                     "Going back in time to meet authors",
-                     "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                     "https://www.youtube.com/watch?v=5nOF93SzX6s")
+the_big_easy = media.Movie(
+    "The Big Easy", "New Orleans crime thrillers",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Bigeasyposter.jpg/220px-Bigeasyposter.jpg",  # noqa
+    "https://www.youtube.com/watch?v=SzWwINeiZa4")
 
-hunger_games = media.Movie("Hunger Games",
-                     "A really real reality show",
-                     "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                     "https://www.youtube.com/watch?v=PbA63a1H0bo")
+white_men_cant_jump = media.Movie(
+    "White Men Can't Jump", "Basketball Hustlers",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/White_men_cant_jump.jpg/220px-White_men_cant_jump.jpg",  # noqa
+    "https://www.youtube.com/watch?v=ebIGjo3Fzlc")
 
-midnight_cowboy = media.Movie("Midnight Cowboy",
-                     "A hustling team in New York City",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Midnight_Cowboy.jpg/220px-Midnight_Cowboy.jpg",
-                     "https://www.youtube.com/watch?v=a2yBydiEJrI")
+dope = media.Movie(
+    "Dope", "Los Angeles crime-comedy thriller",
+    "https://upload.wikimedia.org/wikipedia/en/d/d2/DopeTeaserPoster.jpg",
+    "https://www.youtube.com/watch?v=sNlSBM8jVOY")
 
-butch_sundance = media.Movie("Butch Cassidy and the Sundance Kid",
-                     "Western bank robbers",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Butch_sundance_poster.jpg/220px-Butch_sundance_poster.jpg",
-                     "https://www.youtube.com/watch?v=X41Ylp02NRs")
-
-empire_strikes_back = media.Movie("The Empire Strikes Back",
-                     "Continuing the Star Wars saga",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/SW_-_Empire_Strikes_Back.jpg/220px-SW_-_Empire_Strikes_Back.jpg",
-                     "https://www.youtube.com/watch?v=96v4XraJEPI")
-
-the_big_easy = media.Movie("The Big Easy",
-                     "New Orleans crime thriller",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Bigeasyposter.jpg/220px-Bigeasyposter.jpg",
-                     "https://www.youtube.com/watch?v=SzWwINeiZa4")
-
-white_men_cant_jump = media.Movie("White Men Can't Jump",
-                     "Basketball Hustlers",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/White_men_cant_jump.jpg/220px-White_men_cant_jump.jpg",
-                     "https://www.youtube.com/watch?v=ebIGjo3Fzlc")
+straight_outta_compton = media.Movie(
+    "Straight Outta Compton", "N.W.A music biopic",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Straight_Outta_Compton_poster.jpg/220px-Straight_Outta_Compton_poster.jpg",  # noqa
+    "https://www.youtube.com/watch?v=oyoew4T74_w")
 
 
+the_force_awakens = media.Movie(
+    "The Force Awakens", "Star Wars Episode VII",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Star_Wars_The_Force_Awakens_Teaser_Poster.jpg/220px-Star_Wars_The_Force_Awakens_Teaser_Poster.jpg",  # noqa
+    "https://www.youtube.com/watch?v=OMOVFvcNfvE")
 
-movies = [white_men_cant_jump, the_big_easy, empire_strikes_back, butch_sundance, midnight_cowboy, buffalo_66]
+
+# Selected movies are randomly sequenced and added to the entertaiment
+# center page.
+movies = [dope, straight_outta_compton, the_force_awakens,
+          midnight_cowboy, buffalo_66, the_big_easy]
 fresh_tomatoes.open_movies_page(movies)
-#print(media.Movie.__module__)
+
+# print(media.Movie.__module__)
